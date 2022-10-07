@@ -27,13 +27,28 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  overflow: hidden;
+  padding: 0 rem(16px);
 }
 
 #webgl {
   width: 100%;
   height: 100%;
+}
+
+#appType {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+}
+
+/* canvas music application */
+.play {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 1;
 }
 
 @media (prefers-color-scheme: light) {
